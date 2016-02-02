@@ -1,0 +1,336 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+
+		.page { 
+			background: url(/img/promo/BG.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		.band{
+			
+			padding-top:50px;
+			padding-bottom:50px;
+			
+			
+		}
+		
+		
+		.hidden {
+			display: none;
+		}
+		
+		.vcard {
+			height:100px;
+			
+		}
+		
+		.resume {
+			margin: 2em 1em 2em 1em;
+		}
+		
+		.img_module {text-align: center;}
+		
+		/*
+		figcaption p{ 
+			-webkit-font-smoothing: antialiased !important; 
+			-webkit-text-size-adjust: 100%!important;
+			-webkit-hyphens: none!important;
+			-moz-hyphens: none!important;
+			-ms-hyphens: none!important;
+			hyphens: none!important;
+		}
+		*/
+/* Main Promozones
+================================================== */
+		h2.big {
+			font: 72px/74px "ff-netto-web",sans-serif;
+			margin-bottom: 20px;}
+		.page { background-color: rgba(68,68,68,1);}
+
+/* Design Page Styles
+================================================== */
+		.circular-frame {
+}
+		.circular-frame, .circular-frame img {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	-webkit-border-radius: 120px; /* Saf3+, Chrome */
+	border-radius: 120px; /* Opera 10.5, IE 9 */
+	/*-moz-border-radius: 120px; Disabled for FF1+ */
+	-webkit-transition: -webkit-filter 1s;
+	-webkit-filter: grayscale(100%);
+} 
+		.circular-frame:hover {
+	-webkit-filter: grayscale(0%);
+	-webkit-box-shadow: 0px 0px;
+}
+
+/* Color Styles
+================================================== */
+		.color_green1{ background-color: rgba(1,180,141,1);}
+		.color_green2{ background-color: rgba(50,188,153,1);}
+		.color_green3{ background-color: rgba(106,198,169,1);}
+		.color_green4{ background-color: rgba(143,210,188,1);}
+		.color_green5{ background-color: rgba(176,221,203,1);}
+		.color_green6{ background-color: rgba(0,180,138,1);}
+		.color_red1 { background-color: rgba(245,58,86,1);}
+		.color_red2 { background-color: rgba(245,84,99,1);}
+		.color_red3 { background-color: rgba(247,108,112,1);}
+		.color_red4 { background-color: rgba(249,128,128,1);}
+		.color_red5 { background-color: rgba(249,143,140,1);}
+		.color_teal { background-color: rgba(255,0,151,1);}
+		.color_purple { background-color: rgba(162,0,255,1);}
+		.color_magenta { background-color: rgba(255,0,151,1);}
+		.color_lime { background-color: rgba(140,191,38,1);}
+		.color_brown { background-color: rgba(160,80,0,1);}
+		.color_pink { background-color: rgba(230,113,184,1);}
+		.color_orange { background-color: rgba(240,150,9,1);}
+		.color_blue { background-color: rgba(27,161,226,1);}
+
+/* Header Styles
+================================================== */
+		h1#logo { height: 40px; }
+		
+		h1#logo a {
+			color: white;
+			text-align:center;
+			text-decoration:none;
+			font-size:.9em;
+			letter-spacing:.4em;
+			line-height:1em; }
+		
+		h1#logo a:hover {
+			color: #666;
+			text-decoration: underline; }
+
+/*navigation
+================================================== */
+		a.to_nav {
+			float:left;
+			text-align:center;
+			color: #fff;
+			background: #4e4e4e;
+			text-decoration: none;
+			padding: 10px 10px;
+			font-size: 72px;
+			font-weight: bold;
+			line-height: 72px;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px; }
+		a.to_nav:hover,
+		a.to_nav:focus {
+			color: #1c1c1c;
+			background: #ccc; }
+		#primary_nav ul {
+			list-style: none;
+			background-color:rgba(0,180,138,.5);
+			margin: 50px 0 0 0; }
+		#primary_nav li a {
+			display: block;
+			padding: 0 20px;
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			line-height: 2em;
+			height: 2em;
+			border-bottom: 1px solid #383838; }
+		#primary_nav li:last-child a {
+			border-bottom: none; }
+		#primary_nav li a:hover,
+		#primary_nav li a:focus {
+			color: #1c1c1c;
+			background: #ccc; }
+
+/* #Page Styles
+================================================== */
+		.statement {
+			background-color: rgba(102,102,102,.5);
+			margin-top:10px;
+			margin-bottom:10px;
+			padding: 10px; }
+	
+		.glass {
+			background-color: rgba(102,102,102,.5);
+			padding: 10px; }
+		
+		h2.glass {
+			margin:0 0 0 0;
+			padding:10px; }
+	
+		.thick {
+			padding-top: 25px;
+			padding-bottom: 25px;
+			padding-left: 25px; }
+
+/* #Media Queries
+================================================== */
+	
+
+	@media only screen and (min-width: 1200px) {
+		/*navigation*/
+		a.to_nav { display:none; }
+		.promozone { margin-top:100px; }
+		.gap { height:500px; }
+		#primary_nav {
+			position: absolute;
+			top: 300px;
+			left: 0px; }
+		#primary_nav li {
+			display: block; }
+		#primary_nav li a {
+			float: left;	
+			border: none;
+			margin-top: 10px;
+			padding: 0 20px 0 20px; }
+
+	}
+	
+	@media only screen and (min-width: 768px) and (max-width: 1200px) {
+		.promozone { margin-top:100px; }
+		#catchphrase{ margin-bottom: 10px; }
+		a.to_nav { display:none; }	
+		.gap { height:500px;}
+		#primary_nav {
+			position: absolute;
+			top: 75px;
+			left: 50%;
+			margin-left: -320px; }
+			
+		#primary_nav ul {
+			list-style: none;
+			margin: 10px 0 10px 0; }
+			
+		#primary_nav li { display:inline; }
+		#primary_nav li a {
+			float: left;	
+			border: none;
+			margin-top: 17px;
+			padding: 0 20px 0 20px;
+			background-color: rgba(106,198,169,1); }		
+			
+	}
+	
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {	}
+		
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {		
+		h1#logo a {
+			color: white;
+			text-align:center;
+			text-decoration:none;
+			font-size:.8em;
+			letter-spacing:.4em;
+			line-height:1em; }
+		
+		#primary_nav {
+			position: absolute;
+			top: 100px;
+			left: 50%;
+			margin-left: -325px; }
+			
+		#primary_nav ul {
+			list-style: none;
+			margin: 10px 0 10px 0; }
+			
+		#primary_nav li {
+			display:inline; }
+		
+    	#primary_nav li a {
+			float: left;	
+			border: none;
+			margin-top: 17px;
+			padding: 0 15px 0 15px;
+			background-color: rgba(106,198,169,1); }
+		.circular-frame { }
+		.circular-frame, .circular-frame img {
+			width: 150px;
+			height: 150px;
+			-webkit-border-radius: 120px; /* Saf3+, Chrome */
+			border-radius: 120px; 	/* Opera 10.5, IE 9 */
+			/*-moz-border-radius: 30px; Disabled for FF1+ */
+			-webkit-transition: -webkit-filter 1s;  
+			-webkit-filter: grayscale(100%); } 		
+		
+		}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		h1#logo a {
+			color: white;
+			text-align:center;
+			text-decoration:none;
+			font-size:.9em;
+			letter-spacing:.4em;
+			line-height:1em; }
+		.statement {
+			background-color: rgba(102,102,102,.5);
+			margin-top:10px;
+			padding: 10px; }
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		h1#logo { height:180px;}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		h1#logo { height:180px;}
+		h1#logo a {
+		color: white;
+		text-align:center;
+		text-decoration:none;
+		font-size:.8em;
+		letter-spacing:.3em;
+		line-height:1em; }	
+		
+		}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
